@@ -72,7 +72,7 @@ def transcribe_audio(file_path):
 
 def main():
     try:
-        # record_until_keypress()
+        record_until_keypress()
         time.sleep(2)
 
         transcript = transcribe_audio(OUTPUT_FILENAME)
